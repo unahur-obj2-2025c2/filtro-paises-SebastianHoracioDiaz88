@@ -15,4 +15,16 @@ public abstract class FiltroCompuesto implements Ifiltro{
         filtros.add(filtro);
     }
 
+     @Override   
+    public Ifiltro and(Ifiltro filtro) {
+        return null;
+    }
+    
+
+    @Override
+    public Ifiltro or(Ifiltro filtro){
+        return null;
+    }
+           
+
 }
